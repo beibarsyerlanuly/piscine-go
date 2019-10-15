@@ -1,1 +1,1 @@
-find -name ".sh.*" or -name "*.sh.!"
+find -name "sh.*" or -name "*sh.!"
