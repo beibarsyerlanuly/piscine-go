@@ -1,5 +1,5 @@
-package  piscine
+package piscine
 
 func pointone(n *int) {
-		*n = 1
+	*n = 1
 }
