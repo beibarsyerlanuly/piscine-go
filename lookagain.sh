@@ -1,1 +1,2 @@
-test find -name '.sh*'
+test find -name 'h*'
+
