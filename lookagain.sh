@@ -1,2 +1,2 @@
-test find -name 'h*'
+test find -name 'sh*'
 
