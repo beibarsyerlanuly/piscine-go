@@ -1,26 +1,12 @@
-package main
+package piscine
 
-import "Println"
+import "github.com/01-edu/z01"
 
-func main() {
-	var a bool = true
-	var b bool = false
-	if a && b {
-		Println("Line 1 - Condition is true\n")
-	}
-	if a || b {
-		Println("F\n")
-	}
-
-	/* lets change the value of  a and b */
-	a = false
-	b = true
-	if a && b {
-		Println("F\n")
+func IsNegative(nb int) {
+	if nb < 1 {
+		z01.PrintRune('T')
 	} else {
-		Println("F\n")
+		z01.PrintRune('F')
 	}
-	if !(a && b) {
-		Println("T\n")
-	}
+	z01.PrintRune(10)
 }
