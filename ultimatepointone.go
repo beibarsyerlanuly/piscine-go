@@ -1,5 +1,5 @@
-package piscine
+package student
 
-func UltimatePointOne (n ***int) {
+func UltimatePointOne(n ***int) {
 	***n = 1
 }
