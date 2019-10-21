@@ -1,17 +1,17 @@
 package main
 
-import "github.com/01-edu/z01"
+import "fmt"
 
 func IterativeFactorial(nb int) int {
-	result := 0
+	arg := 0
 	for i := 0; i < nb+1; i++ {
 
-		result = result + i
+		arg = arg + i
 	}
-	return result
+	return arg
 }
 func main() {
 
-	result := 1 * 2 * 3 * 4
-	z01.Println(result)
+	arg := 1 * 2 * 3 * 4
+	fmt.Println(arg)
 }
