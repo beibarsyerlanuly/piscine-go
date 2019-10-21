@@ -1,6 +1,6 @@
 package main
 
-import "fmt"
+import "github.com/01-edu/z01"
 
 func IterativeFactorial(nb int) int {
 	result := 0
@@ -13,5 +13,5 @@ func IterativeFactorial(nb int) int {
 func main() {
 
 	result := 1 * 2 * 3 * 4
-	fmt.Println(result)
+	z01.Println(result)
 }
