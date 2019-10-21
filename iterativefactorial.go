@@ -12,6 +12,6 @@ func IterativeFactorial(nb int) int {
 }
 func main() {
 
-	result := 0 + 1 + 2 + 3 + 3 + 4 + 5 + 6
+	result := +0 + 1 * 2 * 3 * 4
 	fmt.Println(result)
 }
