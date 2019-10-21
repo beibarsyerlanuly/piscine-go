@@ -1,20 +1,17 @@
-package main
-
-import "fmt"
+package piscine
 
 func IterativeFactorial(nb int) int {
 
-	arg := 0
+	if nb >= 1 && nb < 20 {
+		result := 1
 
-	for i := 0; i < nb+1; i++ {
-		arg = arg + i
+		for i := 1; i <= nb; i++ {
+			result = result * i
+		}
+		return result
+	} else if nb == 0 {
+		return1
+	} else {
+		return 0
 	}
-	return arg
-}
-func main() {
-
-	arg := 1 * 2 * 3 * 4
-
-	fmt.Println(arg)
-
 }
