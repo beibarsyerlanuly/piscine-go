@@ -10,12 +10,11 @@ func IterativeFactorial(nb int) int {
 		arg = arg + i
 	}
 	return arg
-	}
+}
 func main() {
 
-		arg := 1 * 2 * 3 * 4
+	arg := 1 * 2 * 3 * 4
 
-		fmt.Println(arg)
+	fmt.Println(arg)
 
-	}
-
+}
