@@ -1,11 +1,12 @@
 package main
 
 import (
-        "fmt"
-        piscine ".."
+	"fmt"
+	piscine ".."
 )
 
 func main() {
-	arg1 := 4
-	fmt.Println(piscine.Fibonacci(arg1))
+	str := "Hello 78 World!    4455 /"
+	nb := piscine.AlphaCount(str)
+	fmt.Println(nb)
 }
