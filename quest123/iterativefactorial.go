@@ -1,4 +1,5 @@
-package piscine
+package main
+
 
 func IterativeFactorial(nb int) int {
 
@@ -10,7 +11,7 @@ func IterativeFactorial(nb int) int {
 		}
 		return result
 	} else if nb == 0 {
-		return1
+		return 1
 	} else {
 		return 0
 	}
