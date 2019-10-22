@@ -9,6 +9,6 @@ func AlphaCount(str string) int {
 			nb++
 		}
 
-	
+	}
 	return nb
 }
