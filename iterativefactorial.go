@@ -1,5 +1,6 @@
-package main
+package piscine
 
+//import "fmt"
 
 func IterativeFactorial(nb int) int {
 
